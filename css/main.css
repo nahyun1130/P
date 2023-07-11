@@ -1,5 +1,35 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 body {
-    width: 100%;
     height: 100vh;
     background-color: rgb(245, 245, 208);
+}
+
+h1 {
+    font-family: 'Chela One';
+    text-align: center;
+    font-size: 6rem;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url('../images/mainpooh.png') no-repeat;
+    background-position: -40px -10px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Chela One';
+    text-align: center;
+    font-size: 3rem;
+}
+h3 {
+    font-family: 'Chela One';
+    text-align: center;
+    font-size: 2rem;
 }
